@@ -24,11 +24,6 @@ module.exports = {
           },
         }
       },
-      colors: {
-        'laraToolPrimary': '#8B60ED',
-        'laraToolSecondary': '#B372BD',
-        'laraFrame': '#EC454F',
-      }
     },
   },
   plugins: [

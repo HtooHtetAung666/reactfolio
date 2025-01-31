@@ -4,12 +4,12 @@ const Blobs = () => {
     return (
         <>
             {/* phone screen size */}
-            <div className="absolute top-0 left-0 bg-laraFrame rounded-full blur-lg opacity-80 animate-blob w-64 h-64 md:hidden"></div>
-            <div className="absolute -bottom-10 left-10 bg-laraToolPrimary rounded-full blur-lg opacity-80 animate-blob animation-delay-2000 w-64 h-64 md:hidden"></div>
+            <div className="absolute top-0 left-0 bg-teal-400 rounded-full blur-lg opacity-80 animate-blob w-64 h-64 md:hidden"></div>
+            <div className="absolute -bottom-10 left-10 bg-teal-400 rounded-full blur-lg opacity-80 animate-blob animation-delay-2000 w-64 h-64 md:hidden"></div>
             {/* tablet and pc screen size */}
-            <div className="absolute top-0 -left-4 bg-laraFrame rounded-full mix-blend-multiply filter blur-lg opacity-80 animate-blob w-64 h-64 hidden md:block"></div>
-            <div className="absolute top-0 -right-4 bg-laraToolPrimary rounded-full mix-blend-multiply filter blur-lg opacity-80 animate-blob animation-delay-2000 w-64 h-64 hidden md:block"></div>
-            <div className="absolute -bottom-8 left-20 bg-laraToolSecondary rounded-full mix-blend-multiply filter blur-lg opacity-80 animate-blob animation-delay-4000 w-72 h-72 hidden md:block"></div>
+            <div className="absolute top-0 -left-4 bg-teal-400 rounded-full mix-blend-multiply filter blur-lg opacity-80 animate-blob w-64 h-64 hidden md:block"></div>
+            <div className="absolute top-0 -right-4 bg-teal-400 rounded-full mix-blend-multiply filter blur-lg opacity-80 animate-blob animation-delay-2000 w-64 h-64 hidden md:block"></div>
+            <div className="absolute -bottom-8 left-20 bg-teal-400 rounded-full mix-blend-multiply filter blur-lg opacity-80 animate-blob animation-delay-4000 w-72 h-72 hidden md:block"></div>
         </>
     )
 }

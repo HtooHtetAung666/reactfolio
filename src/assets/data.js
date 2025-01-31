@@ -18,18 +18,18 @@ const data = {
     skills: [
         {
             id: 1,
-            skillName: <p className='text-xl text-laraFrame font-semibold mt-4'>Programming</p>,
-            skillIcon: <FaCode className='text-4xl text-laraFrame mx-auto inline-block' />
+            skillName: <p className='text-xl text-gray-500 font-semibold mt-4'>Programming</p>,
+            skillIcon: <FaCode className='text-4xl text-gray-500 mx-auto inline-block' />
         },
         {
             id: 2,
-            skillName: <p className='text-xl text-laraToolPrimary font-semibold mt-4'>Cloud</p>,
-            skillIcon: <TbCloudComputing className='text-4xl text-laraToolPrimary mx-auto inline-block' />
+            skillName: <p className='text-xl text-gray-500 font-semibold mt-4'>Cloud</p>,
+            skillIcon: <TbCloudComputing className='text-4xl text-gray-500 mx-auto inline-block' />
         },
         {
             id: 3,
-            skillName: <p className='text-xl text-laraToolSecondary font-semibold mt-4'>AI</p>,
-            skillIcon: <GiArtificialIntelligence  className='text-4xl text-laraToolSecondary mx-auto inline-block' />
+            skillName: <p className='text-xl text-gray-500 font-semibold mt-4'>AI</p>,
+            skillIcon: <GiArtificialIntelligence  className='text-4xl text-gray-500 mx-auto inline-block' />
         }
     ],
     projects: [
