@@ -7,13 +7,13 @@ const Card = ({ name, title, social: { github, email, linkedin } }) => {
         <div className='relative flex flex-col justify-center max-w-xs mx-auto bg-white rounded-xl p-5'>
             <div>
                 <img
-                    className='w-32 h-32 md:w-36 md:h-36 object-cover mx-auto border-4 border-teal-400 shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-teal-400/100 bg-teal-50 rounded-full'
+                    className='w-32 h-32 md:w-36 md:h-36 object-cover mx-auto shadow-xl rounded-full'
                     src={profile}
                     alt="face"
                 />
             </div>
             <div className='text-center mt-5'>
-                <p className='text-xl sm:text-2xl font-semibold text-teal-600'>{name}</p>
+                <p className='text-xl sm:text-2xl font-semibold text-gray-500'>{name}</p>
                 <p className='text-base text-gray-500 pt-2 pb-4 px-4 w-auto inline-block border-b-2'>{title}</p>
                 <div className='flex align-center justify-center mt-4'>
                     <a
